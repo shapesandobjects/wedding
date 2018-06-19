@@ -3,7 +3,7 @@
 	height: 32rem;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1024px) {
 	#map {
 		height: 27rem;
 	}

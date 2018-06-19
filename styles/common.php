@@ -19,7 +19,7 @@ input {
     font-family: 'Comfortaa', cursive;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1024px) {
 	.body {
 		left: 5%;
 		width: 90%;

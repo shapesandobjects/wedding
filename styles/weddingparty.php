@@ -78,6 +78,15 @@
 	height: 8rem;
 }
 
+@media only screen and (max-width: 768px) {
+	.weddingparty .groomsman,
+	.weddingparty .bridesmaid,
+	.other .profile {
+		display: flex;
+		height: 5.5rem;
+	}
+}
+
 .weddingparty .groomsman,
 .other .profile:first-of-type {
 	flex-direction: row-reverse;

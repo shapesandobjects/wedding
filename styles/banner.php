@@ -66,6 +66,9 @@
 
 .banner .menu-small {
 	padding: 0 2rem;
+	position: relative;
+    top: -3rem;
+    margin-bottom: -3rem;
 }
 .banner .menu-small .control {
 	display: flex;
@@ -101,12 +104,12 @@
 	border: none;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1024px) {
 	.banner .menu {
 		display: none;
 	}
 }
-@media only screen and (min-width: 769px) {
+@media only screen and (min-width: 1025px) {
 	.banner .menu-small {
 		display: none;
 	}
