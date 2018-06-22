@@ -4,6 +4,8 @@ $_POST  = filter_input_array(INPUT_POST, FILTER_SANITIZE_STRING);
 
 $guest = $_POST['guest'];
 $attending = $_POST['attending'];
+$extra = $_POST['extra'];
+$food = $_POST['food'];
 
 // clean data
 if ($guest === null or $guest === '') {
@@ -19,6 +21,23 @@ if ($attending === 'yes') {
 
 echo $out;
 
-sendEmail('scott.evans@live.ca', 'rsvp@scoranda.wedding', 'RSVP from' . $guest, 'This is a test of the rsvp email');
+$msg = 'RSVP from ' . $guest . '. They say they '; 
+if ($attending === 'yes') {
+	$msg = $msg . 'will ';
+} else {
+	$msg = $msg . 'will not ';
+}
+$msg = $msg . 'be able to attend, ';
+if (strlen($extra) === 0) {
+	$msg = $msg . 'and nothing else.';
+} else {
+	$msg = $msg . '"' . $extra . '."';
+}
+if (strlen($food) > 0) {
+	$msg = $msg . '  Also, they have a food thing: "' . $food . '"';
+}
+echo $msg;
+
+sendEmail('scott.evans@live.ca', 'rsvp@scoranda.wedding', 'RSVP from' . $guest, $msg);
 
 ?>
