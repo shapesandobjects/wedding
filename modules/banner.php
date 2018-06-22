@@ -4,8 +4,8 @@
 
 	array_splice($availablePictures,(array_search('.', $availablePictures)),1);
 	array_splice($availablePictures,(array_search('..', $availablePictures)),1);
-	$bannerPictures = [5];
-	for ($i = 0; $i < 5; $i++) {
+	$bannerPictures = [8];
+	for ($i = 0; $i < 8; $i++) {
 		$rand = rand(0, sizeof($availablePictures) - 1);
 		$bannerPictures[$i] = [
 			'filename' => $availablePictures[$rand],
@@ -48,7 +48,7 @@
 <div class='banner'>
 	<div class='images'>
 		<?php 
-			for ($i = 0; $i< 5; $i++) {
+			for ($i = 0; $i< 8; $i++) {
 				echo('
 					<img class="image" src="'.IMG_TITLE.$bannerPictures[$i]['filename'].'" style="transform: rotate('.$bannerPictures[$i]['rotation'].'deg); z-index: -'.$bannerPictures[$i]['zIndex'].'; top: '.$bannerPictures[$i]['verticalAdjust'].'rem"/>
 				');
