@@ -38,6 +38,6 @@ if (strlen($food) > 0) {
 }
 echo $msg;
 
-sendEmail('scott.evans@live.ca', 'rsvp@scoranda.wedding', 'RSVP from' . $guest, $msg);
+sendEmail('scorandawedding@gmail.com', 'rsvp@scoranda.wedding', 'RSVP from' . $guest, $msg);
 
 ?>
