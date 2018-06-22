@@ -27,9 +27,35 @@ $(document).ready(() => {
 	$('#rsvp-form').submit(function(event) {
     	event.preventDefault();
 
+    	const attending = $('input[name=attending]:checked').val()
+    	const extraOptions = {
+    		attending: ['cantwait',
+    			'fancy',
+    			'bedtime',
+    			'dancing',
+    			'food'],
+    		notAttending: ['wish',
+    			'bummed'] 
+    	}
+    	let ext
+    	let extra = ''
+    	if (attending === 'yes') {
+    		ext = extraOptions.attending
+    	} else {
+    		ext = extraOptions.notAttending
+    	}
+    	ext.forEach((e) => {
+	    	checked = $('#attending-extra-' + e).prop('checked')
+	    	if (checked) {
+	    		extra += ($('label[for=attending-extra-' + e + ']').text())
+	    	}
+	    });
+	    
     	$inputs = {
     		guest: $('#guest').val(),
-			attending: $('input[name=attending]:checked').val()
+			attending,
+			extra,
+			food: $('#attending-extra-food-details').val()
 		};
 
 		$.post('handling/rsvp.php', $inputs)

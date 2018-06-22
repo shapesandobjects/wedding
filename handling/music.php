@@ -27,9 +27,15 @@ else
 $out = $out . ', we\'ll look at adding ' . $song . ' to our playlist.';
 
 echo($out);
+$msg = $submittedBy . ' has requested ' . $song . ' by ' . $artist . '.';
+if (strlen($link) > 0) {
+	$msg = $msg . '  It can be found at ' . $link;
+}
+
+echo($msg);
 
 // send email
-sendEmail('scott.evans@live.ca', 'music@scoranda.wedding', 'New Music Request', 'This is a test of the music email');
+sendEmail('scorandawedding@gmail.com', 'music@scoranda.wedding', 'New Music Request', $msg);
 
 
 ?>
