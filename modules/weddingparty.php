@@ -26,7 +26,7 @@
 		'jeremy' => [
 			'name' => 'Jeremy Chemij',
 			'title' => 'Groomsman',
-			'writeup' => 'ccccccc',
+			'writeup' => 'Jeremy Chemij is a refrigeration tech in Mississauga. Scott and Jeremy became buddies while playing football and living as roommates throughout university. Since meeting, Jeremy has acted as both a mentor and inspiration with Scott&rsquo;s strength goals. After all these years Scott and Jeremy maintain their friendship by trying to resolve the world&rsquo;s issue over a bottle of rye.',
 			'color' => $hex['yellow']['primary']
 		],
 		'andrew' => [
@@ -91,11 +91,11 @@
 			'name' => 'Kailey Jenkins',
 			'title' => 'Bridesmaid',
 			'writeup' => 'Why hello there...<br/>
-				She&rsquo;s Kailey Margaret Jenkins<br/> 
+				She&rsquo;s Kailey Margaret Jenkins<br/>
 				Age 29<br/>
 				Height 5\'2" and a half (the half is important)<br/>
 				Kailey enjoys the soothing jams of Michael Bolton, and long walks to the convenience store<br/><br/>
-				You must be wondering how Kailey knows Randa... and to sum it up... They have known each other going on 50 years now. They met one day between playing with Play-Doh and nap time. They&rsquo;ve grown up together; witnessed the good and bad. Kaily\'s seen Miranda through her awkward stage of life, just as Miranda&rsquo;s still clearly seeing Kailey through her own.',
+				You must be wondering how Kailey knows Randa... and to sum it up... They have known each other going on 50 years now. They met one day between playing with Play-Doh and nap time. They&rsquo;ve grown up together; witnessed the good and bad. Kaily&rsquo;s seen Miranda through her awkward stage of life, just as Miranda&rsquo;s still clearly seeing Kailey through her own.',
 			'quote' => 'I&rsquo;m just so happy to be a part of these two cool cats&rsquo; adventure together and so proud to call Randa my friend.',
 			'color' => $hex['red']['primary']
 		]
@@ -104,7 +104,7 @@
 		'rob_and_anabel' => [
 			'name' => 'Rob and Anabel Legood',
 			'title' => 'Masters of Cermonies',
-			'writeup' => 'aaaaaa',
+			'writeup' => 'Rob first met Miranda when she played the role of a mudperson as a part of a medieval faire.  Miranda first met Rob when he played the role of Mob Boss that gets simulated fellatio on stage while singing, and it was all downhill from there. Although Anabel and Miranda met through Rob, you could say their love blossomed over a mutual love of crafting, all thing pumpkin and a certain 90&rsquo;s boy band. Ever since Scott joined the circle the team has been completed and they have all enjoyed many evening filled with beer, board games and more beer.',
 			'color' => 'black'
 		],
 		'luke' => [
@@ -142,7 +142,7 @@
 
 
 		<div class='groomsman profile'>
-			<div class='picture' style="border-color: <?php echo $details[color]?>; background-image:<?php echo("url('".IMG_WEDDINGPARTY.$stub.".jpg')")?>;">		
+			<div class='picture' style="border-color: <?php echo $details[color]?>; background-image:<?php echo("url('".IMG_WEDDINGPARTY.$stub.".jpg')")?>;">
 			</div>
 			<div class='name_and_title'>
 				<div class='name'><?php echo $details[name]?></div>
@@ -212,7 +212,7 @@
 		</div>
 
 		<?php
-			}	
+			}
 		?>
 
 		</div>
@@ -250,7 +250,7 @@
 		</div>
 
 		<?php
-			}	
+			}
 		?>
 
 	</div>
