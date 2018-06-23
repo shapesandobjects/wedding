@@ -1,12 +1,10 @@
 <?php
 	function sendEmail($to, $from, $subject, $body){
 		$headers = "From: {$from}";
-		var_dump($headers);
 
-		if (mail($to, $subject, $body, $headers)){
-			echo('sent');
-		} else {
-			echo('<br/>Actually...');
+		$mailed = mail($to, $subject, $body, $headers);
+		if (!$mailed) {
+			echo('Actually, something went wrong with this.  Maybe you could kindly let Scott know...');
 		}
 	}
 ?>

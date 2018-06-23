@@ -15,6 +15,7 @@ $(document).ready(() => {
 			$('#song').val('')
 			$('#artist').val('')
 			$('#link').val('')
+			$('#isItGood').val('')
 			$('#submittedBy').val('')
 			$('.music-form-messages').text(data);
 		});

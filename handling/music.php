@@ -32,7 +32,6 @@ if (strlen($link) > 0) {
 	$msg = $msg . '  It can be found at ' . $link;
 }
 
-echo($msg);
 
 // send email
 sendEmail('scorandawedding@gmail.com', 'music@scoranda.wedding', 'New Music Request', $msg);

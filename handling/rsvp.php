@@ -36,7 +36,6 @@ if (strlen($extra) === 0) {
 if (strlen($food) > 0) {
 	$msg = $msg . '  Also, they have a food thing: "' . $food . '"';
 }
-echo $msg;
 
 sendEmail('scorandawedding@gmail.com', 'rsvp@scoranda.wedding', 'RSVP from' . $guest, $msg);
 
