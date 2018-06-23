@@ -6,6 +6,7 @@ $guest = $_POST['guest'];
 $attending = $_POST['attending'];
 $extra = $_POST['extra'];
 $food = $_POST['food'];
+$extra = str_replace("&#39;", "'", $extra);
 
 // clean data
 if ($guest === null or $guest === '') {
