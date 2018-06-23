@@ -12,6 +12,10 @@ $(document).ready(() => {
 			submittedBy: $('#submittedBy').val(),
 		})
 		.done(function(data) {
+			$('#song').val('')
+			$('#artist').val('')
+			$('#link').val('')
+			$('#submittedBy').val('')
 			$('.music-form-messages').text(data);
 		});
 	});

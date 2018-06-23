@@ -13,7 +13,7 @@
 		'shawn' => [
 			'name' => 'Shawn Reeves',
 			'title' => 'Best Man',
-			'writeup' => 'Well... If Shawn hadn&rsquo;t had Scott to grow up with, his life would have been way less interesting. They&rsquo;ve known each other since they were in our junior years of high school. Let&rsquo;s just say our common love for music began our friendship  AKA &ldquo;PLAY DAMMIT!&rdquo;. And then other crazy things started happening when they were around eachother- &ldquo;someone&rdquo; throwing the other one through a plate glass window, Tony Hawk in Shawn&rsquo;s parent&rsquo;s basement, and Scott&rsquo;s beige van, just to name a few.',
+			'writeup' => 'Well... If Shawn hadn&rsquo;t had Scott to grow up with, his life would have been way less interesting. They&rsquo;ve known each other since they were in their junior years of high school. Let&rsquo;s just say their common love for music began their friendship  AKA &ldquo;PLAY DAMMIT!&rdquo;. And then other crazy things started happening when they were around each other- &ldquo;someone&rdquo; throwing the other one through a plate glass window, Tony Hawk in Shawn&rsquo;s parent&rsquo;s basement, and Scott&rsquo;s beige van, just to name a few.',
 			'quote' => 'I&rsquo;m not good with embellishments, so do it yourself!  Shawn&rsquo;s the name, we been friends for so long I&rsquo;m here for good.',
 			'color' => $hex['orange']['primary']
 		],
@@ -32,21 +32,20 @@
 		'andrew' => [
 			'name' => 'Andrew Flatt',
 			'title' => 'Groomsman',
-			'writeup' => 'Andrew Flatt is a College Professor in Savannah, GA. He is passionate about authentic Southern BBQ, classic rock and lifting weights. Andrew and Scott&rsquo;s relationship blossomed at Wilfrid Laurier University on the football field, in the weight room and at most local &ldquo;all you can eat&rdquo; establishments. Scott was a groomsman for Andrew at his wedding and now Andrew is excited to return the favor. ',
+			'writeup' => 'Andrew Flatt is a College Professor in Savannah, GA. He is passionate about authentic Southern BBQ, classic rock and lifting weights. Andrew and Scott&rsquo;s relationship blossomed at Wilfrid Laurier University on the football field, in the weight room and at most local &ldquo;all you can eat&rdquo; establishments.<br/><br/>Scott was a groomsman for Andrew at his wedding and now Andrew is excited to return the favor. ',
 			'color' => $hex['red']['primary']
 		],
 		'dave' => [
 			'name' => 'David Evans',
 			'title' => 'Groomsman',
-			'writeup' => 'Scott&rsquo;s oldest, younger brother.  We met years ago when we were introduced by our parents.  We were roommates for a while and it turns out we have a lot in common.<br/><br/>
-			Dave has always looked up to Scott, both literally and figuratively.  Scott&rsquo;s been there for Dave for as long as he can remember and he knows that he can count on him no matter what.',
+			'writeup' => 'Scott&rsquo;s oldest, younger brother.  They met years ago when they were introduced by their parents.  They were roommates for a while and it turns out They have a lot in common.<br/><br/>Dave has always looked up to Scott, both literally and figuratively.  Scott&rsquo;s been there for Dave for as long as he can remember and he knows that he can count on him no matter what.',
 			'quote' => 'I&rsquo;m incredibly happy for Scott and Miranda and wish them the best in their life together.',
 			'color' => $hex['burgandy']['primary']
 		],
 		'mark' => [
 			'name' => 'Mark Evans',
 			'title' => 'Groomsman',
-			'writeup' => 'fffffff',
+			'writeup' => 'Mark is Scott&rsquo;s youngets, slightly shorter brother.',
 			'color' => $hex['green']['primary']
 		]
 	];
@@ -104,13 +103,13 @@
 		'rob_and_anabel' => [
 			'name' => 'Rob and Anabel Legood',
 			'title' => 'Masters of Cermonies',
-			'writeup' => 'Rob first met Miranda when she played the role of a mudperson as a part of a medieval faire.  Miranda first met Rob when he played the role of Mob Boss that gets simulated fellatio on stage while singing, and it was all downhill from there. Although Anabel and Miranda met through Rob, you could say their love blossomed over a mutual love of crafting, all thing pumpkin and a certain 90&rsquo;s boy band. Ever since Scott joined the circle the team has been completed and they have all enjoyed many evening filled with beer, board games and more beer.',
+			'writeup' => 'Rob first met Miranda when she played the role of a mudperson as a part of a medieval faire.  Miranda first met Rob when he played the role of Mob Boss that gets simulated fellatio on stage while singing, and it was all downhill from there.<br/><br/>Although Anabel and Miranda met through Rob, you could say their love blossomed over a mutual love of crafting, all thing pumpkin and a certain 90&rsquo;s boy band.<br/><br/>Ever since Scott joined the circle the team has been completed and they have all enjoyed many evening filled with beer, board games and more beer.',
 			'color' => 'black'
 		],
 		'luke' => [
 			'name' => 'Luke Elliot',
 			'title' => 'Officiant',
-			'writeup' => 'Lucas Elliott hails from the shores of Lake Huron. Being of no fixed address, he has gotten to know Scott and Miranda by periodically sleeping on their couch, having his possessions destroyed by their two dogs, and remaining unconvinced that Scott and Miranda are not deities of some sort like in that movie Hancock with all the lifting and fitness stuff they do. When he is not officiating for weddings, he dabbles in storytelling, venture capitalism, piracy, and municipal politics. He is one for new friends and would very much appreciate it if you bought him a drink.',
+			'writeup' => 'Lucas Elliott hails from the shores of Lake Huron. Being of no fixed address, he has gotten to know Scott and Miranda by periodically sleeping on their couch, having his possessions destroyed by their two dogs, and remaining unconvinced that Scott and Miranda are not deities of some sort like in that movie Hancock with all the lifting and fitness stuff they do. When he is not officiating for weddings, he dabbles in storytelling, venture capitalism, piracy, and municipal politics.<br/><br/>He is one for new friends and would very much appreciate it if you bought him a drink.',
 			'color' => 'black'
 		]
 	];

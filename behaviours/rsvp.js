@@ -47,6 +47,9 @@ $(document).ready(() => {
     	ext.forEach((e) => {
 	    	checked = $('#attending-extra-' + e).prop('checked')
 	    	if (checked) {
+	    		if (extra !== ''){
+	    			extra += ', '
+	    		}
 	    		extra += ($('label[for=attending-extra-' + e + ']').text())
 	    	}
 	    });
