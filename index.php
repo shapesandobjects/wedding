@@ -1,4 +1,4 @@
-<link href="https://fonts.googleapis.com/css?family=Arima+Madurai|Cherry+Swash|Cinzel+Decorative|Comfortaa|Courgette|Dancing+Script|Great+Vibes|Italianno|Lobster+Two|Merriweather|Overlock|Petit+Formal+Script|Roboto|Satisfy|Yellowtail" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Comfortaa|Yellowtail" rel="stylesheet">
 <link rel="stylesheet" type="text/css" href="styles/style.php">
 <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -8,7 +8,7 @@
 <script src="behaviours/venue.js"></script>
 <script src="behaviours/music.js"></script>
 <script src="behaviours/rsvp.js"></script>
-
+<title>S&M - Oct 13, 2018</title>
 
 <?php
 	require('config.php');
