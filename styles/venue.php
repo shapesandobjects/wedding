@@ -22,7 +22,7 @@
 }
 
 .venue-details .address-container {
-    width: 15rem;
+    width: 19rem;
 }
 
 .hotel-details .address-container {
