@@ -38,7 +38,7 @@
 		</div>
 		Bookings can be made at the <a href='http://www.marriott.com/meeting-event-hotels/group-corporate-travel/groupCorp.mi?resLinkData=McKinley/Evans%20Wedding%5Eykfcy%60MEWMEWA%7CMEWMEWB%60129.00%60CAD%60false%602%6010/12/18%6010/14/18%609/14/18&app=resvlink&stop_mobi=yes' target='_blank'>Courtyard Marriot website</a>, or by calling <a href="tel:+5198849295">519 884 9295</a>.
 		<br>
-		Shuttles will be run between the venue and hotel at 4:30, 9:30, 12:00, and 1:30.  Please come have lots of fun, and not make driving an issue.
+		Shuttles will be run from the hotel to the venue at 4:10 and 5:00, and return continuously from 10:15 to 2:15.  Please come have lots of fun, and not make driving an issue.
 	</div>
 	<div class='more-directions'>
 		For more detailed directions, please consult the magic wand that you call a cell phone.  Let's be honest, the only people on our guest list without one are our grandmothers, and they're not looking at this site anyway.
