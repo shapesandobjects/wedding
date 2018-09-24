@@ -45,7 +45,8 @@
 		'mark' => [
 			'name' => 'Mark Evans',
 			'title' => 'Groomsman',
-			'writeup' => 'Mark is Scott&rsquo;s youngets, slightly shorter brother.',
+			'writeup' => 'As Scott&rsquo;s youngest brother, Mark has always had very big shoes to fill. Whether it was school, football, or any other walk of life, he had always been an amazing role model. Mark has always looked up to his oldest brother even though he now looks slightly down to him.',
+			'quote' => 'I&rsquo;m excited to welcome Miranda, Tony, and Carl to the family... and drinking all of the eclectic beers you bring with you.',
 			'color' => $hex['green']['primary']
 		]
 	];
